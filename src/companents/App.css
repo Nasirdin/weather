@@ -1,0 +1,28 @@
+.App{
+    height: 500px;
+    padding: 50px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 24px 3px rgba(255,255,255,0.81); 
+    box-shadow: 0px 0px 24px 3px rgba(255,255,255,0.81);
+    background-color: rgba(255,255,255, 1);
+}
+
+.error{
+    border-radius: 30px;
+    width: 300px;
+    display: block;
+    margin: 60px auto;
+    
+}
+
+.summer{
+    border-radius: 50%;
+    width: 350px;
+    margin-top: 22px;
+    display: block;
+}
+

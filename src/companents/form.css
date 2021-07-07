@@ -1,0 +1,38 @@
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.search{
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 15px 5px 15px 25px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(255,255,255, .4);
+    -webkit-box-shadow: 0px 0px 24px 3px rgba(104, 99, 99, 0.3); 
+    box-shadow: 0px 0px 24px 3px rgba(104, 99, 99, 0.3);
+
+}
+.button{
+    outline:  none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 17px 20px 13px 20px;
+    border: none;
+    background-color: rgba(255,255,255, .6);
+    -webkit-box-shadow: 0px 0px 24px 3px rgba(104, 99, 99, 0.3); 
+    box-shadow: 0px 0px 24px 3px rgba(104, 99, 99, 0.3);
+    transition: .5s;
+}
+.button:hover{
+    background-color: rgba(146, 144, 144, 0.3);
+    -webkit-box-shadow: 0px 0px 24px 3px rgba(146, 144, 144, 0.3); 
+    box-shadow: 0px 0px 24px 3px rgba(146, 144, 144, 0.3);
+}
+
+.button img{
+    width: 20px;
+
+}
